@@ -1,0 +1,14 @@
+div.parent4 {
+    margin: 0px 0px 10px 0px;
+    height: 242px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    img {
+        width: 322px;
+        height: 242px;
+        border-radius: 30px;
+    }
+}

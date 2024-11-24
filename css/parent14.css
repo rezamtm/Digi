@@ -1,0 +1,87 @@
+.parent14 {
+    margin: 0px 0px 10px 0px;
+    height: 812px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    div.text {
+        width: 100%;
+        margin: 0px 0px 8px;
+        padding: 20px 0px;
+        h3 {
+            font-size: 21px;
+            font-family: iranyekan;
+            color: black;
+            text-align: center;
+        }
+    }
+    a {
+        display: inline-block;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 248px;
+        height: 241px;
+        padding: 12px 8px;
+        box-sizing: border-box;
+        border-bottom: 1px solid lightgrey;
+        border-right: 1px solid lightgrey;
+        div.image {
+            text-align: center;
+            width: 201px;
+            height: 150px;
+            margin-bottom: 5px;
+            padding-right: 10px;
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+        div.middle {
+            display: inline-block;
+            width: 100%;
+            font-size: 16px;
+            font-family: iranyekan;
+            span {
+                width: fit-content;
+            }
+            span.toman {
+                font-size: 11px;
+            }
+            div.right {
+                text-align: center;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                width: 20%;
+                height: 80%;
+                margin-right: 20px;
+                box-sizing: border-box;
+                margin-left: 50px;
+                font-size: 11px;
+                background-color: crimson;
+                color: white;
+                border-radius: 50px;
+                line-height: 20px;
+            }
+        }
+        div.bottom {
+            width: 100%;
+            margin-right: 50px;
+            padding-top: 10px;
+            font-size: 11px;
+            font-family: iranyekan;
+            text-decoration: line-through;
+        }
+    }
+    
+}
+
+a.bottom {
+    border-bottom: unset;
+}
+
+a.right {
+    border-right: unset;
+}

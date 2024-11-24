@@ -1,0 +1,74 @@
+div.login {
+    width: 400px;
+    height: 450px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid lightgrey;
+    div.logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.child {
+        width: 100%;
+        h1.h1 {
+            font-family: iranyekan;
+            margin-top: 20px;
+            font-size: 19px;
+        }
+        p.text1 {
+            font-family: iranyekan;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        p.text2 {
+            font-family: iranyekan;
+            font-size: 12px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+        .telinput {
+            width: 334px;
+            height: 48px;
+            border-radius: 8px;
+            border: 0.800px solid gray;
+            padding: 8px;
+            margin-top: 10px;
+            box-sizing: border-box;
+            direction: rtl;
+            font-size: 15px;
+        }
+        .telinput:focus {
+            outline-color: rgb(17, 222, 222);
+        }
+        input[type="submit"] {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 35px;
+            border: 0.800px;
+            background-color: #EF4056;
+            color: white;
+            font-weight: 700;
+            font-family: iranyekan;
+            font-size: 14px;
+            width: 336px;
+            height: 48px;
+            border-radius: 10px;
+            border: unset;
+            cursor: pointer;
+        }
+        p.text3 {
+            font-size: 11px;
+            margin-top: 20px;
+            font-family: iranyekan;
+        }
+        p>a {
+            text-decoration: none;
+            color: #55ACCF;
+        }
+    }   
+}
+

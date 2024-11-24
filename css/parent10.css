@@ -1,0 +1,111 @@
+.parent10 {
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);;
+    margin: 0px 0px 10px 0px;
+    height: 95px;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    direction: ltr;
+    border-radius: 10px;
+    a.left1 {
+        width: 256px;
+        height: 63px;
+        background-color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content:space-between;
+        align-items: center;
+        padding: 3px;
+        border-radius: 10px 0px 0px 10px;
+        text-decoration: none;
+        div.left {
+            width: 168px;
+            height: 60px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content:space-around ;
+            align-items: center;
+            img {
+                width: 168px;
+                height: 60px;
+                object-fit: cover;
+            }
+        }
+        div.right {
+            display: inline-block;
+            width: 88px;
+            height: inherit;
+            text-align: center;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content:center ;
+            align-items: center;
+            span {
+                font-family: iranyekan;
+                font-size: 12px;
+                font-weight: bold;
+                margin-right: 8px;
+            }
+            svg {
+                width: 20px;
+                height: 20px;
+                padding-right: 2px ;
+            }
+        }
+    }
+    a.left2 {
+        width: 256px;
+        height: 63px;
+        background-color: white;
+        display: inline;
+        padding: 3px;
+        margin-left: -50px;
+        div.left {
+            width: 168px;
+            height: 60px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content:space-around ;
+            align-items: center;
+            img {
+                width: 168px;
+                height: 60px;
+                object-fit: cover;
+            }
+
+        }
+    }
+    a.left3 {
+        width: 256px;
+        height: 63px;
+        background-color: white;
+        display: inline;
+        border-radius: 0px 10px 10px 0px;
+        padding: 3px;
+        margin-left: -50px;
+        div.left {
+            width: 168px;
+            height: 60px;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content:space-around ;
+            align-items: center;
+            img {
+                width: 168px;
+                height: 60px;
+                object-fit: cover;
+            }
+
+        }
+    }
+
+    img.lgo {
+        margin-left: 400px;
+        padding-right: 20px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+}
